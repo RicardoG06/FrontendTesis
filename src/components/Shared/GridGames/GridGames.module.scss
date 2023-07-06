@@ -1,0 +1,36 @@
+.gridGames {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.game {
+  width: 33.33%;
+  margin-bottom: 10px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  > div {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px; /* Ajusta el tamaño del título según tus preferencias */
+
+
+    &:last-of-type {
+      padding-top: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    > img {
+      object-fit: cover;
+      width: 350px;
+      height: 350px;
+    }
+
+  }
+}
+

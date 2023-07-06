@@ -1,0 +1,41 @@
+@import "~/src/scss/index.scss";
+
+.container {
+  display: flex;
+  position: relative;
+  height: 500px;
+  width: 80%;
+  background-color: #0D0D0D;
+  background-image: radial-gradient(
+    circle at center bottom,
+    #A63208 0,
+    #A63208 29%,
+    #BF7315 73%
+  );
+  border-radius: 20px; /* Dar bordes suaves */
+  margin: 0 auto; /* Centrar horizontalmente */
+
+}
+
+.containerImage {
+  display: flex !important;
+  justify-content: flex-end;
+  height: 80%;
+  padding-top: 100px;
+}
+
+.infoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
